@@ -40,3 +40,13 @@ jobs:
 
       - name: Run tests
         run: deno test -A
+interface User {
+    id: number;
+    name: string;
+    email: string;
+}
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+}
